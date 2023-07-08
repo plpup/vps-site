@@ -30,6 +30,7 @@ $hover-sign-in-button-border: #EFF5FF;
 .header {
     @include display(flex, column, nowrap, center);
     @include size(120px, 100%);
+    max-width: 1600px;
     margin: 0 auto;
 }
 
@@ -88,7 +89,7 @@ $hover-sign-in-button-border: #EFF5FF;
 
 .menu-box{
     @include display(flex, row, nowrap, center);
-    @include size(72px, 100%);
+    @include size(72px, 1360px);
     gap: 43px;
 
     &__img{

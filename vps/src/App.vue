@@ -14,6 +14,8 @@
     ОС: CentOS, Debian, Ubuntu, Windows."
     advantagesTitle="Дополнительные преимущества:"></About>
     <Opportunities titleText="Программно-аппаратные возможности VPS" featuresTitle="Включенные возможности VPS"></Opportunities>
+    <Support></Support>
+    <Feedback title="Отзывы клиентов"></Feedback>
   </main>
 </template>
 
@@ -22,6 +24,8 @@ import Header from "./components/Header.vue"
 import Banner from "./components/Banner.vue"
 import About from "./components/About.vue"
 import Opportunities from "./components/Opportunities.vue"
+import Support from "./components/Support.vue"
+import Feedback from "./components/Feedback.vue"
 
 export default {
   name: "App",
@@ -29,7 +33,9 @@ export default {
     Header,
     Banner,
     About,
-    Opportunities
+    Opportunities,
+    Support,
+    Feedback
 }
 }
 </script>

@@ -23,8 +23,8 @@ $accent-text-color:#2F5DC7;
 
 .banner{
     @include display(flex, row, wrap);
-    @include size(537px, 100%);
-    max-width: 1360px;
+    @include size(537px, 1360px);
+    max-width: 1600px;
     background: $banner-background;
 
     &__left-block{
